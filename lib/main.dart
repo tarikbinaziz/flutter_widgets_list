@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swipe_button/flutter_swipe_button.dart';
-import 'package:flutter_widgets_list/flutter_swipe_button_package.dart';
+import 'package:flutter_widgets_list/carousel_view_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FlutterSwipeButtonWidget(),
+      home: const CarouselViewWidget(),
     );
   }
 }
-
